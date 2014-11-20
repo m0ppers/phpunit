@@ -11,6 +11,8 @@ require __DIR__ . '/../bootstrap.php';
 PHPUnit_TextUI_Command::main();
 ?>
 --EXPECTF--
+PHPUnit %s by Sebastian Bergmann.
+
 
 Starting test 'DataProviderDebugTest::testProvider with data set #0 (null, true, 1, 1.0)'.
 .
